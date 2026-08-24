@@ -81,14 +81,16 @@ declaradas y el uso real de la tecnología.
 
 ```mermaid
 flowchart TD
-    A[Kit de Concienciación INCIBE] --> B[Marco de Referencia - El Usuario en el Control Interno]
-    N[ISO/IEC 27001:2022 - Clausula 7.3 y Anexo A 6.3] --> B
-    M[ISO 19011:2018 - Directrices de Auditoria] --> B
-    B --> C[Pregunta 1 - Suficiencia del Marco Tecnologico y Normativo]
-    B --> D[Pregunta 2 - Consecuencias de la Falta de Comprension]
-    B --> E[Pregunta 3 - Evaluacion Auditora de la Brecha]
-    C & D & E --> F[Propuesta - Kit de Concienciacion como Control Auditable]
-    F --> G[Conclusiones]
+    A["Kit de Concienciación INCIBE"] --> B["Marco de Referencia - El Usuario en el Control Interno"]
+    N["ISO/IEC 27001 2022 - Clausula 7.3 y Anexo A.6.3"] --> B
+    M["ISO 19011 2018 - Directrices de Auditoria"] --> B
+    B --> C["Pregunta 1 - Suficiencia del Marco Tecnologico y Normativo"]
+    B --> D["Pregunta 2 - Consecuencias de la Falta de Comprension"]
+    B --> E["Pregunta 3 - Evaluacion Auditora de la Brecha"]
+    C --> F["Propuesta - Kit de Concienciacion como Control Auditable"]
+    D --> F
+    E --> F
+    F --> G["Conclusiones"]
 ```
 
 ---
@@ -97,10 +99,10 @@ flowchart TD
 
 ```mermaid
 flowchart LR
-    P[Planear - Alcance y Autorizacion] --> V1[Verificar - Linea Base con Ataques Dirigidos]
-    V1 --> H[Hacer - Nueve Recursos Formativos]
-    H --> V2[Verificar - Medicion Final Comparable]
-    V2 --> A[Actuar - Encuesta y Plan de Mejora]
+    P["Planear - Alcance y Autorizacion"] --> V1["Verificar - Linea Base con Ataques Dirigidos"]
+    V1 --> H["Hacer - Nueve Recursos Formativos"]
+    H --> V2["Verificar - Medicion Final Comparable"]
+    V2 --> A["Actuar - Encuesta y Plan de Mejora"]
     A --> P
 ```
 
