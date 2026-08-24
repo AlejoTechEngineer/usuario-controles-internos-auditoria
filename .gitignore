@@ -1,0 +1,44 @@
+# Documentos editables (solo se publica el PDF final)
+*.docx
+*.doc
+*.dotx
+*.odt
+*.rtf
+*.xlsx
+*.xls
+*.csv
+*.pptx
+*.ppt
+*.odp
+*.ods
+*.txt
+*.md.bak
+
+# Carpeta de trabajo de la actividad (permanece solo en local)
+Actividad/
+actividad/
+Actividad2/
+actividad2/
+Borradores/
+borradores/
+Trabajo/
+trabajo/
+Transcripciones/
+transcripciones/
+
+# Archivos temporales de Office / LibreOffice
+~$*
+.~lock.*#
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Excepción explícita: el PDF final SÍ se publica
+!Desarrollo_Proyecto_Alejandro_De_Mendoza_Tovar.pdf
